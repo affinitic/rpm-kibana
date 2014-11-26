@@ -31,5 +31,7 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Nov 26 2014 Marcel Fuhrmann <github@mfsystems.me> 1:3.1.2-1
+- update to kibana version 3.1.2
 * Wed Oct 01 2014 Marcel Fuhrmann <github@mfsystems.me> 1:3.1.0-1
 - first RPM-Release
