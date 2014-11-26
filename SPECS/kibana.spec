@@ -1,7 +1,7 @@
 %define _rpmfilename %%{NAME}-%%{VERSION}.%%{ARCH}.rpm
 
 Name:		kibana		
-Version:	3.1.0	
+Version:	3.1.2	
 Release:	1%{?dist}
 Summary:	Kibana is a browser based analytics and search interface for Elasticsearch that was developed primarily to view Logstash event data.	
 Group:		Productivity/Visualization
