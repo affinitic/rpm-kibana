@@ -1,0 +1,3 @@
+*.rpm
+RPMS/*.rpm
+.git

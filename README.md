@@ -47,7 +47,7 @@ cd
 git clone https://github.com/SOLDIERz/rpm-kibana.git
 
 # build SRPM 
-rpmbuild -bs rpmbuild/SPECS/kibana.spec
+rpmbuild --define="install_dir /var/www/kibana" -bs rpmbuild/SPECS/kibana.spec
 
 # build RPM for RHEL7
 /usr/bin/mock -r epel-7-x86_64 --rebuild rpmbuild/SRPMS/kibana-3.1.0.x86_64.src.rpm
@@ -56,6 +56,12 @@ rpmbuild -bs rpmbuild/SPECS/kibana.spec
 /usr/bin/mock -r epel-6-x86_64 --rebuild rpmbuild/SRPMS/kibana-3.1.0.x86_64.src.rpm
 ```
 
+Docker Process
+==============
+
+Create rpm using docker images:
+
+make build
 
 Install kibana trough yum
 =========================
